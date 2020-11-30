@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="PENGHITUNGAN GAJI"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:background="#FF6F6F"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:src="@drawable/disebud"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bulan"/>
+
+    <EditText
+        android:id="@+id/et_bulan_gaji"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"
+        android:textAlignment="textEnd"
+        android:background="#FFC9C9"
+        android:hint="Month Year"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nama Lengkap"/>
+
+    <EditText
+        android:id="@+id/et_nama_karyawan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"
+        android:textAlignment="textEnd"
+        android:background="#FFC9C9"
+        android:hint="Nama Lengkap"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Gaji Pokok"/>
+
+    <EditText
+        android:id="@+id/et_gaji_pokok"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"
+        android:inputType="number"
+        android:textAlignment="textEnd"
+        android:background="#FFC9C9"
+        android:hint="xxxxx"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Lembur"/>
+
+    <EditText
+        android:id="@+id/et_lembur"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"
+        android:inputType="number"
+        android:textAlignment="textEnd"
+        android:background="#FFC9C9"
+        android:hint="xxxxx"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Golongan"/>
+
+    <EditText
+        android:id="@+id/et_Golongan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"
+        android:textAlignment="textEnd"
+        android:background="#FFC9C9"
+        android:maxLength="1"
+        android:hint="x"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hari Masuk Kerja"/>
+
+    <EditText
+        android:id="@+id/et_hari_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"
+        android:inputType="number"
+        android:textAlignment="textEnd"
+        android:background="#FFC9C9"
+        android:maxLength="2"
+        android:hint="xx"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF4545"
+        android:onClick="hitungGaji"
+        android:text="HITUNG GAJI"
+        />
+
+
+
+</LinearLayout>
